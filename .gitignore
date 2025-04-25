@@ -1,0 +1,42 @@
+# Ignorar node_modules de backend y frontend
+/backend/node_modules/
+/frontend/node_modules/
+
+# Archivos de lock
+/backend/package-lock.json
+/frontend/package-lock.json
+# si usas yarn/pnpm
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Variables de entorno
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpetas de build/output
+/backend/dist/
+/backend/build/
+/frontend/dist/
+/frontend/build/
+/frontend/out/
+
+# Cobertura de tests
+**/coverage/
+*.lcov
+
+# Archivos temporales del SO
+.DS_Store
+Thumbs.db
+
+# Config de editores/IDE
+/.idea/
+/.vscode/
+/*.suo
+/*.ntvs*
+/*.njsproj
+/*.sln
